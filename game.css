@@ -1,0 +1,619 @@
+/* Page body design */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d0214;
+  font-family: "Poppins", sans-serif;
+  height: 350vh;
+}
+
+/* Page body design */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+/* Header part design start here */
+
+header {
+  width: 100%;
+  height: 10vh;
+  background: linear-gradient(rgba(0, 0, 1, 0.849), rgb(52, 51, 51));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 300px;
+  height: 10vh;
+  background: #c21c0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  clip-path: polygon(0% 0%, 74% 0, 94% 49%, 69% 100%, 0% 100%);
+  padding: 10px;
+}
+
+.logo p {
+  width: 130px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.logo .fas {
+  font-size: 50px;
+}
+
+/* Navbar part design start here */
+
+.navbar {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #b6082e;
+}
+
+/* Navbar part design end here */
+
+/* Shopping Cart design start here */
+
+#btn {
+  width: 240px;
+  height: 10vh;
+  background: #c21c0d;
+  color: #000;
+  outline: none;
+  border: none;
+  padding-top: 20px;
+  padding-left: 130px;
+  display: flex;
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.cart {
+  width: 35px;
+  height: 35px;
+  background: whitesmoke;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.count {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 18px;
+  transform: translate(-50%, -50%);
+  right: 55px;
+  background-color: #000;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  border-radius: 400px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 2px;
+  transition: all ease 1s;
+}
+
+/* Shopping Cart design start here */
+
+/* Header part design end here */
+
+/* 1st Animation Part start here */
+
+.profile {
+  height: 100px;
+  margin-top: 20px;
+}
+
+.box {
+  background: none;
+  width: 280px;
+  height: 100px;
+  left: 160px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  animation-name: animations1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animations1 {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(323%);
+    color: #e2200e;
+  }
+}
+
+/* 1st Animation Part end here */
+
+/* Content desc starts here */
+
+/* Body and Logo part start here */
+
+.cont {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.content-desc p {
+  width: 550px;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+.btn2 {
+  width: 320px;
+  height: 10vh;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+  color: rgb(255, 250, 250);
+  background: #9748ad;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 15px;
+  clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+  border-radius: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.game-logo {
+  width: 470px;
+  height: 430px;
+  background: url(sk.png);
+  background-size: cover;
+  background-position: center;
+  left: 10px;
+  position: relative;
+}
+
+/* Body and Logo part end here */
+
+/* Game section Start here */
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.logo-section .fas {
+  font-size: 6rem;
+  color: #fec53a;
+}
+.logo-section h1 {
+  width: 250px;
+  font-size: 2rem;
+  color: #fec53a;
+  margin-left: 10px;
+}
+
+/* Popular game & Buy Game starts here */
+
+.section-1 {
+  width: 100%;
+  height: 160vh;
+  background: #0f1923;
+}
+
+.section-2 {
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.section-1 h1 {
+  width: 500px;
+  color: #fec53a;
+  font-size: 1.5rem;
+  position: relative;
+  font-weight: 400;
+}
+.img-section {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  width: 150px;
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.img-1 {
+  background: url(PUBG.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-2 {
+  background: url(pes.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-3 {
+  background: url(Fortnite.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-4 {
+  background: url(OIP.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-5 {
+  background: url(fifa.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-6 {
+  background: url(GTA.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-7 {
+  background: url(cod.png);
+  background-size: cover;
+  background-position: center;
+}
+.img-8 {
+  background: url(val.png);
+  background-size: cover;
+  background-position: center;
+}
+.img:hover {
+  transform: translateY(-10px);
+}
+
+.gap {
+  padding-top: 40px;
+  position: relative;
+}
+.game-categories {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-1 hr {
+  margin: 40px auto;
+  width: 70%;
+}
+
+/* cart desine start here */
+
+.game-cart {
+  width: 70%;
+  height: 30px;
+  background: rgb(43, 123, 165);
+  padding: 2px;
+  text-align: center;
+  margin-left: 21px;
+  padding-top: 6px;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.game-cart:hover {
+  background: rgb(2, 136, 209);
+}
+
+.img-section a {
+  text-decoration: none;
+  color: black;
+}
+
+/* game cart end here */
+
+/* Popular game & Buy Game end here */
+
+/* Game section end here */
+
+/* Tournament start here  */
+
+.section-3 {
+  width: 100%;
+  height: 60vh;
+  background-color: #000;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-3 h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 20px 0;
+}
+.tournament-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.tournament-1 a {
+  text-decoration: none;
+}
+.tour {
+  width: 200px;
+  height: 200px;
+  background: url(PUBG.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.tournament-1 span {
+  font-size: 1.5rem;
+  color: #fec53a;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.stars {
+  color: #fec53a;
+}
+.tour-2 {
+  background: url(cod.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.tour-3 {
+  background: url(val.png);
+  background-size: cover;
+  background-position: center;
+}
+.tour-4 {
+  background: url(Fortnite.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Tournament End here */
+
+/* News Section Start here */
+
+.pp1 {
+  background-color: #0d0214;
+}
+
+.box-2 {
+  background: none;
+  margin-top: 10px;
+  width: 320px;
+  height: 100px;
+  left: 192px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-top: 15px;
+  animation-name: animations2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animations2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(255%);
+    color: #e2200e;
+  }
+}
+
+/* cart design */
+
+.news-part {
+  height: 63vh;
+  width: 100%;
+  background: #0d0214;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-1 {
+  width: 1100px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-1 .news-card {
+  position: relative;
+}
+
+.news-card .nesw-2 {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.news-card .nesw-2.nesw-22 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.nesw-23 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(-100px);
+}
+
+.news-card:hover .nesw-2.nesw-23 {
+  transform: translateY(0);
+}
+
+.news-3 a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+.news-3 a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.nesw-2.nesw-22 {
+  transform: translateY(100px);
+}
+.news-1 .news-card:hover .nesw-2.nesw-22 {
+  transform: translateY(0px);
+}
+
+/* cart design */
+
+/* News section end here */
+
+/* Short link start here */
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background: #07010a;
+  display: flex;
+  align-items: center;
+}
+.footer-body {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-h1 {
+  color: white;
+}
+ul h2 {
+  color: #fff;
+  font-weight: 450;
+}
+ul li {
+  list-style: none;
+  line-height: 2.8rem;
+  font-size: 1rem;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:hover {
+  color: #fec53a;
+  font-size: 0.98rem;
+  background: none;
+}
+
+/* Short Link end here */
+
+.dex {
+  margin: 0 auto;
+  width: 45%;
+}
+
+/* Social Site Start here */
+
+.icon-12 {
+  background-color: #07010a;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 130px;
+}
+.btn-1 {
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  border-radius: 8px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: none;
+  justify-content: space-between;
+}
+.icon-12 a {
+  text-decoration: none;
+  color: #fff;
+}
+.icon-12 a .fab {
+  font-size: 1.2rem;
+  color: #fec53a;
+  margin-right: 15px;
+}
+.icon-12 a:hover {
+  color: #fec53a;
+  font-size: 1.25rem;
+  background: none;
+}
+
+/* Social site End here */
+
+.footer-bottom {
+  width: 100%;
+  height: 10vh;
+  background: #1b1919;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-bottom span {
+  color: #fec53a;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(29 32 35);
+  padding: 0 10px;
+}
+.game {
+  max-width: 500px;
+  background: #fff;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.game .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #fec107;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.game .form .inputfield {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.game .form .inputfield label {
+  width: 200px;
+  color: #757575;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.game .custom_select select {
+  padding: 8px 10px;
+  font-size: 15px;
+  width: 300px;
+  border: 2px solid #d5dbd9;
+  border-radius: 3px;
+}
+.game.form .inputfield .custom_select {
+  position: relative;
+  width: 100%;
+  height: 37px;
+}
+
+.input:focus,
+.custom_select select:focus {
+  border: 1px solid #fec107;
+}
+
+.game .form .inputfield .check {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0px;
+  background: rgb(29 32 35);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+.game .form .inputfield .btn:hover {
+  background: rgba(29, 32, 35, 0.679);
+}
+.game .form .inputfield p {
+  font-size: 14px;
+  color: #757575;
+}

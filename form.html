@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="shortcut icon" href="game.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <section class="game">
+      <div class="title">Registration</div>
+      <form class="form" onsubmit="myfunc(event)">
+        <div class="inputfield">
+          <label for="title">TEAM NAME</label>
+          <input type="text" class="input" id="title" required />
+        </div>
+        <div class="inputfield">
+          <label for="ign">IGN</label>
+          <input type="text" class="input" id="ign" required />
+        </div>
+        <div class="inputfield">
+          <label for="fname">FIRST NAME</label>
+          <input type="text" class="input" id="fname" />
+        </div>
+        <div class="inputfield">
+          <label for="lname">LAST NAME</label>
+          <input type="text" class="input" id="lname" />
+        </div>
+        <div class="inputfield">
+          <label for="email">EMAIL ADDRESS</label>
+          <input type="text" class="input" id="email" required />
+        </div>
+        <div class="inputfield">
+          <label for="password">PASSWORD</label>
+          <input type="password" class="input" id="password" />
+        </div>
+        <div class="inputfield">
+          <label>CHOICE GAME</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="" id="b">Pubg</option>
+              <option value="" id="c">Cod</option>
+              <option value="" id="d">Fortnite</option>
+              <option value="" id="e">Pes 2022</option>
+              <option value="" id="f">Valorant</option>
+              <option value="" id="g">Asphalt 9</option>
+            </select>
+          </div>
+        </div>
+        <div class="inputfield">
+          <label>SERVER</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+
+              <option value="" id="h">Asia</option>
+              <option value="" id="x">North America</option>
+              <option value="" id="y">Europe</option>
+              <option value="" id="z">Medile East</option>
+            </select>
+          </div>
+        </div>
+        <div class="inputfield">
+          <label for="dob">AGE</label>
+          <input type="text" class="input" id="dob" />
+        </div>
+        <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+        </div>
+        <div class="inputfield">
+          <input type="submit" value="Register" class="btn" id="rg" />
+        </div>
+      </form>
+    </section>
+    <script src="far.js"></script>
+  </body>
+</html>
