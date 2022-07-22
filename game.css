@@ -566,7 +566,9 @@ ul li a:hover {
   margin: 0 auto;
   width: 45%;
 }
-
+#foot {
+  margin: auto 0;
+}
 /* Social Site Start here */
 
 .icon-12 {
